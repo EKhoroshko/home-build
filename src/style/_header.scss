@@ -1,0 +1,81 @@
+.header {
+  padding-top: 17px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__logo-text {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  &__text-grific {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 8px;
+  }
+
+  &__grafic-link {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212864;
+    cursor: pointer;
+  }
+
+  &__contact-item {
+    margin-bottom: 8px;
+  }
+
+  &__tel {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #212864;
+  }
+
+  &__social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__list-social {
+    display: flex;
+    gap: 11px;
+  }
+
+  &__button {
+    padding: 10px 39px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    border: 1px solid #212864;
+    border-radius: 25px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #212864;
+  }
+}

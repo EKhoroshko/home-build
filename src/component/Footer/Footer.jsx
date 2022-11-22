@@ -120,9 +120,15 @@ function Footer() {
               <li className='footer__item-width'>
                 <h4 className='footer__item-category'>полезно</h4>
                 <ul>
-                  <li className='footer__category-name'>Доставка и сборка</li>
-                  <li className='footer__category-name'>Контакты</li>
-                  <li className='footer__category-name'>Наши работы</li>
+                  <li className='footer__category-name'>
+                    <Link className='footer__category-link' to='delivery'>Доставка и сборка</Link>
+                  </li>
+                  <li className='footer__category-name'>
+                    <Link className='footer__category-link' to='contact'> Контакты</Link>
+                  </li>
+                  <li className='footer__category-name'>
+                    <Link className='footer__category-link' to='ourwork'>Наши работы</Link>
+                  </li>
                 </ul>
               </li>
               <li>
