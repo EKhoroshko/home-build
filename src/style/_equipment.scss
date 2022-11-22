@@ -1,0 +1,37 @@
+.equipment {
+  &__menu {
+    margin-bottom: 24px;
+  }
+
+  &__link {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  &__link:not(:last-child)::after {
+    content: url(../image/arrowRight.svg);
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  &__title {
+    margin-bottom: 18px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #000000;
+  }
+
+  &__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(32, 32, 32, 0.8);
+  }
+}

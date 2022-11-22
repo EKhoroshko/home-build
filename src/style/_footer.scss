@@ -1,0 +1,130 @@
+.third {
+  padding-top: 17px;
+  padding-bottom: 24px;
+}
+
+.gap {
+  gap: 32px;
+}
+
+.footer {
+  background-color: #22242e;
+  padding-top: 65px;
+  flex-shrink: 0;
+
+  &__item {
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  &__logo-text {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  &__text-grific {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+  }
+
+  &__grafic-link {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+
+  &__contact-item {
+    margin-bottom: 8px;
+  }
+
+  &__tel {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__item-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list-social {
+    display: flex;
+    gap: 14px;
+  }
+
+  &__social-title {
+    margin-bottom: 18px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__item-width {
+    max-width: 190px;
+  }
+
+  &__item-category {
+    margin-bottom: 29px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  &__category-name {
+    margin-bottom: 18px;
+  }
+
+  &__category-link {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+
+  &__category-link:hover {
+    color: #353d83;
+  }
+
+  &__button {
+    width: 250px;
+    padding: 18px 22px;
+    background-color: #22242e;
+    border: 1px solid #ffc239;
+    border-radius: 37px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffc239;
+  }
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+
+.second {
+  padding-top: 40px;
+}
