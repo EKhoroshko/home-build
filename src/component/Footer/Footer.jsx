@@ -1,11 +1,10 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SocialLink from '../Header/components/SocialLink/SocialLink';
+import Phone from '../Header/components/Phone/Phone';
+import Locate from '../Header/components/Locate/Locate';
 import Logo from '../../image/logo.svg';
-import Youtube from '../../image/youtube.svg';
-import Instagram from '../../image/instagram.svg';
-import VK from '../../image/vk.svg';
-import Whatsapp from '../../image/whatsapp.svg';
-import Telegram from '../../image/telegram.svg';
 import '../../style/_footer.scss';
 
 function Footer() {
@@ -21,57 +20,15 @@ function Footer() {
               </li>
 
               <li>
-                <p className='footer__text-grific'>Есть вопрос: <span><a className='footer__grafic-link' href='mailto:xapoxa14@gmail.com'>smasmysmestroy@bg.com</a></span></p>
-                <p className='footer__text-grific'>Моск.обл. г.Ступино ул.Промышленная </p>
-                <p className='footer__text-grific'>Пн-Сб 9:00-18:00, Вс - выходной</p>
+                <Locate styleP={'footer__text-grific'} StyleLink={'footer__grafic-link'} />
               </li>
 
               <li>
-                <ul>
-                  <li className='footer__contact-item'>
-                    <a
-                      className='footer__tel'
-                      href="tel:+380930725966">+38 (093) 07-25-966
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className='footer__tel'
-                      href="tel:+380930725966">+38 (093) 07-25-966
-                    </a>
-                  </li>
-                </ul>
+                <Phone slyleUl={'footer__contact-item'} styleLi={'footer__tel'} />
               </li>
-
               <li className='footer__social-item'>
                 <p className='footer__social-title'>Мы в социальных сетях:</p>
-                <ul className='footer__list-social'>
-                  <li>
-                    <a href='https://www.youtube.com' target="_blank" rel="noreferrer">
-                      <img src={Youtube} alt="youtube" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://www.instagram.com/' target="_blank" rel="noreferrer">
-                      <img src={Instagram} alt="instagram" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://vk.com/' target="_blank" rel="noreferrer">
-                      <img src={VK} alt="vk" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://www.whatsapp.com/' target="_blank" rel="noreferrer">
-                      <img src={Whatsapp} alt="whatsapp" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://web.telegram.org/' target="_blank" rel="noreferrer">
-                      <img src={Telegram} alt="telegram" />
-                    </a>
-                  </li>
-                </ul>
+                <SocialLink style={'footer__list-social'} />
               </li>
             </ul>
           </li>

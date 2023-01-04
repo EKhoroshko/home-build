@@ -1,0 +1,132 @@
+.contact {
+  padding-left: 30px;
+  box-sizing: border-box;
+  width: 100%;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    max-width: 630px;
+  }
+
+  &__title {
+    margin-top: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    color: #000000;
+  }
+
+  &__text {
+    margin-top: 5px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  &__button {
+    margin-top: 35px;
+    width: 220px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212864;
+  }
+
+  &__buttonp {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #212864;
+  }
+
+  &__img {
+    width: 10px;
+    height: 20px;
+  }
+
+  &__phonebox {
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+    background: #536fa4;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__phonelink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 32px 0px;
+    box-sizing: border-box;
+    border-right: 1px solid #ffffff;
+    cursor: pointer;
+
+    &:last-child {
+      border-right: none;
+      padding-right: 0px;
+    }
+  }
+
+  &__name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  &__number {
+    margin-top: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__adress {
+    margin-top: -52px;
+    box-sizing: border-box;
+    width: 580px;
+    padding-top: 69px;
+    padding-right: 85px;
+    padding-left: 85px;
+    background: #ffffff;
+    box-shadow: 8px 9px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 20px 20px;
+  }
+}

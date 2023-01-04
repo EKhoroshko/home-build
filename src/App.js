@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Base from './routers/Base';
 import Home from './routers/Home';
+import Layout from './component/Layout/Layout';
 import Equipment from './routers/Equipment';
 import Delivery from './routers/Delivery';
 import Contact from './routers/Contact';
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Base />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="equipment" element={<Equipment />} />
           <Route path="customer" element={<ToCustomer />} />
